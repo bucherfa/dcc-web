@@ -1,4 +1,4 @@
-# dcc-web-pwa
+# docker-compose Converter Web
 
 ## Project setup
 ```

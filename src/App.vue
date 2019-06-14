@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="header">
+      <span class="title">docker-compose Converter</span>
+    </div>
+    <Converter msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Converter from './components/Converter.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Converter
   }
 }
 </script>
 
 <style>
+body {
+  margin: 0;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.header {
+  background: #099cec;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.title {
+  display: inline-block;
+  margin: 0.7rem;
 }
 </style>
