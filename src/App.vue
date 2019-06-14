@@ -2,8 +2,18 @@
   <div id="app">
     <div class="header">
       <span class="title">docker-compose Converter</span>
+      <a href="https://gitlab.com/bucherfa/dcc-web/">
+        <img class="logo" src="./assets/gitlab.svg">
+      </a>
     </div>
     <Converter msg="Welcome to Your Vue.js App"/>
+    <div class="footer">
+      <span>Give feedback/submit issue for </span>
+      <a href="https://gitlab.com/bucherfa/docker-compose-converter/issues">Conversion</a>
+      <span> and </span>
+      <a href="https://gitlab.com/bucherfa/dcc-web/issues">UI</a>
+      <span>.</span>
+    </div>
   </div>
 </template>
 
@@ -33,12 +43,25 @@ body {
 .header {
   background: #099cec;
   color: #ffffff;
+  display: flex;
   font-weight: bolder;
+  justify-content: space-between;
   width: 100%;
 }
 
 .title {
   display: inline-block;
   margin: 0.7rem;
+}
+
+.logo {
+  height: 2.4rem;
+  margin: 0 0.7rem;
+}
+
+.footer {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  text-align: center;
 }
 </style>

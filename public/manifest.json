@@ -1,6 +1,6 @@
 {
-  "name": "dcc-web-pwa",
-  "short_name": "dcc-web-pwa",
+  "name": "docker-compose Converter",
+  "short_name": "dcc",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -16,5 +16,5 @@
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "theme_color": "#099cec"
 }
