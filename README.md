@@ -10,7 +10,7 @@ Uses [docker-compose-converter](https://www.npmjs.com/package/docker-compose-con
 
 ## General Project Setup
 
-Build with the [vuejs cli](https://cli.vuejs.org/config/).
+Build with the [vuejs cli](https://cli.vuejs.org/).
 
 ```
 npm install

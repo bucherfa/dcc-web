@@ -12,6 +12,10 @@
       <a href="https://gitlab.com/bucherfa/docker-compose-converter/issues">Conversion</a>
       <span> and </span>
       <a href="https://gitlab.com/bucherfa/dcc-web/issues">UI</a>
+      <span>. Using </span>
+      <a href="https://www.npmjs.com/package/docker-compose-converter">docker-compose-converter</a>
+      <span> version </span>
+      <a :href="'https://www.npmjs.com/package/docker-compose-converter/v/' + dccVersion">{{ dccVersion }}</a>
       <span>.</span>
     </div>
   </div>
@@ -19,11 +23,17 @@
 
 <script>
 import Converter from './components/Converter.vue'
+import packageJSON from '../package.json'
 
 export default {
   name: 'app',
   components: {
     Converter
+  },
+  computed: {
+    dccVersion () {
+      return packageJSON.dependencies['docker-compose-converter'].split('^')[1]
+    }
   }
 }
 </script>
