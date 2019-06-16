@@ -2,16 +2,16 @@
   <div id="app">
     <div class="header">
       <span class="title">docker-compose Converter</span>
-      <a href="https://gitlab.com/bucherfa/dcc-web/">
-        <img class="logo" src="./assets/gitlab.svg">
+      <a class="link" href="https://github.com/bucherfa/dcc-web">
+        <img class="logo" src="./assets/github.png">
       </a>
     </div>
     <Converter msg="Welcome to Your Vue.js App"/>
     <div class="footer">
-      <span>Give feedback/submit issue for </span>
-      <a href="https://gitlab.com/bucherfa/docker-compose-converter/issues">Conversion</a>
+      <span>Give feedback/submit an issue for </span>
+      <a href="https://github.com/bucherfa/docker-compose-converter/issues">Conversion</a>
       <span> and </span>
-      <a href="https://gitlab.com/bucherfa/dcc-web/issues">UI</a>
+      <a href="https://github.com/bucherfa/dcc-web/issues">UI</a>
       <span>. Using </span>
       <a href="https://www.npmjs.com/package/docker-compose-converter">docker-compose-converter</a>
       <span> version </span>
@@ -65,8 +65,8 @@ body {
 }
 
 .logo {
-  height: 2.4rem;
-  margin: 0 0.7rem;
+  height: 2.2rem;
+  margin: 0.3rem 0.7rem 0;
 }
 
 .footer {

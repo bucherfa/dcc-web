@@ -2,11 +2,11 @@
 
 Convert docker run/create commands to docker-compose.yml files.
 
-[Webapp](https://bucherfa.gitlab.io/dcc-web/)
+[Webapp](https://bucherfa.github.io/dcc-web/)
 
-Uses [docker-compose-converter](https://www.npmjs.com/package/docker-compose-converter)-library for the conversion. Submit issues for conversion at the [docker-compose-converter repo](https://gitlab.com/bucherfa/docker-compose-converter/issues).
+Uses [docker-compose-converter](https://www.npmjs.com/package/docker-compose-converter)-library for the conversion. Submit issues for conversion at the [docker-compose-converter repo](https://github.com/bucherfa/docker-compose-converter/issues).
 
-![alt text](.gitlab/fullpage_screenshot.png)
+![alt text](.readme/fullpage_screenshot.png)
 
 ## General Project Setup
 
